@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catalogo productos - TripleHash</title>
+
+    <!-- Hoja de estilo personalizada -->
+    <link rel="stylesheet" href="css/custom.css">
+
+    <!-- Estilo de Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+
+</head>
+
+<body>
+
+    <!-- Video de impresora -->
+    <div onclick="ocultarModalImpresora()" id="ImpresoraModal" style="display: none;"">
+        <div id=" ImpresoraVideo">
+        <video width="100%" src="video/productos/L3250.mp4" controls></video>
+    </div>
+    </div>
+
+    <!-- WhatsApp iniciar convsersación -->
+    <a id="chatWhatsApp" target="_blank" href="https://wa.me/51931238457?text=Hola%20quiero%20comprar%20ya!">
+        <img src="image/recursos/WhatsApp.svg" alt="Iniciar convsersación por WhatsApp">
+    </a>
+
+    <!-- Encabezado -->
+    <header class="text-center bg-dark text-white p-3">
+        <h1>TripleHash</h1>
+        <h2>Seguridad, calidad y garantía</h2>
+    </header>
+
+    <!-- Barra de navegación -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary bg-dark" data-bs-theme="dark">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contacténos</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <button class="btn btn-success" type="submit">Carrito</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+<!-- Notificación
+    <div id="barNotificaciones">Venta de productos - Catalogo escolar 2023</div>
+ -->
+
+    <!-- Contenido principal -->
+    <main class="container text-center bg-secondary-subtle">
+
+        <!-- Sesiones de contenido -->
+        <section id="catalogo" class="row py-5">
+
+            <!-- Articulo 01 -->
+            <article class="col-xs-12 col-sm-6 col-md-4 col-xl-3">
+
+                <picture>
+                    <img class="img-fluid" src="image/productos/XI061EL07IPJILPE.webp" alt="Cámara web">
+                </picture>
+
+                <h3>Xiaomi Camara Web Full Hd 1080p</h3>
+                <p>
+                    <span class="precioOriginal">S/ 220.00</span> <span class="precioDescuento">-50%</span>
+                    <br><span class="precioFinal">S/ 109.00</span>
+                </p>
+                <button>Agregar al carrito</button>
+
+            </article>
+
+            <!-- Articulo 02 -->
+            <article class="col-xs-12 col-sm-6 col-md-4 col-xl-3">
+
+                <picture>
+                    <img onclick="mostrarModalImpresora()" class="img-fluid"
+                        src="image/productos/EP057EL128KOULPE.webp" alt="Cámara web">
+                </picture>
+
+                <h3>Impresora Multifuncional Epson EcoTank L3250</h3>
+                <p>
+                    <span class="precioOriginal">S/ 1150.00</span> <span class="precioDescuento">-30%</span>
+                    <br><span class="precioFinal">S/ 769.00</span>
+                </p>
+                <button>Agregar al carrito</button>
+
+            </article>
+
+            <!-- Articulo 03 -->
+            <article class="col-xs-12 col-sm-6 col-md-4 col-xl-3">
+
+                <picture>
+                    <img class="img-fluid" src="image/productos/VS653EL1LQW0VLPE.webp" alt="Cámara web">
+                </picture>
+
+                <h3>Audífonos Gamer Kuiper Vsg Multiplataforma Ps4 Xbox</h3>
+                <p>
+                    <span class="precioOriginal">S/ 190.00</span> <span class="precioDescuento">-47%</span>
+                    <br><span class="precioFinal">S/ 99.00</span>
+                </p>
+                <button>Agregar al carrito</button>
+
+            </article>
+
+            <!-- Articulo 04 -->
+            <article class="col-xs-12 col-sm-6 col-md-4 col-xl-3">
+
+                <picture>
+                    <img class="img-fluid" src="image/productos/TP614EL1AHUOLLPE.webp" alt="Cámara web">
+                </picture>
+
+                <h3>Router Inalámbrico N a 450 Mbps TL-WR940N - Tplink</h3>
+                <p>
+                    <span class="precioOriginal">S/ 129.00</span> <span class="precioDescuento">-15%</span>
+                    <br><span class="precioFinal">S/ 109.00</span>
+                </p>
+                <button>Agregar al carrito</button>
+
+            </article>
+
+            <!-- Articulo 05 -->
+            <article class="col-xs-12 col-sm-6 col-md-4 col-xl-3">
+
+                <picture>
+                    <img class="img-fluid" src="image/productos/LE060EL0HR4G9LPE.webp" alt="Cámara web">
+                </picture>
+
+                <h3>Laptop Lenovo IdeaPad 5 15.6\" Full HD AMD Ryzen 7 8GB 512GB SSD</h3>
+                <p>
+                    <span class="precioOriginal">S/ 3899.00</span> <span class="precioDescuento">-41%</span>
+                    <br><span class="precioFinal">S/ 2300.41</span>
+                </p>
+                <button>Agregar al carrito</button>
+
+            </article>
+
+            <!-- Articulo 06 -->
+            <article class="col-xs-12 col-sm-6 col-md-4 col-xl-3">
+
+                <picture>
+                    <img class="img-fluid" src="image/productos/OE991EL0U4PXVLPE.webp" alt="Cámara web">
+                </picture>
+
+                <h3>TECLADO GAMER RGB Combo 2 en 1 , Teclado + mouse. TF230 - TWOLF</h3>
+                <p>
+                    <span class="precioOriginal">S/ 120.00</span> <span class="precioDescuento">-66%</span>
+                    <br><span class="precioFinal">S/ 40.80</span>
+                </p>
+                <button>Agregar al carrito</button>
+
+            </article>
+
+            <!-- Articulo 01 -->
+            <article class="col-xs-12 col-sm-6 col-md-4 col-xl-3">
+
+                <picture>
+                    <img class="img-fluid" src="image/productos/XI061EL07IPJILPE.webp" alt="Cámara web">
+                </picture>
+
+                <h3>Xiaomi Camara Web Full Hd 1080p</h3>
+                <p>
+                    <span class="precioOriginal">S/ 220.00</span> <span class="precioDescuento">-50%</span>
+                    <br><span class="precioFinal">S/ 109.00</span>
+                </p>
+                <button>Agregar al carrito</button>
+
+            </article>
+
+            <!-- Articulo 02 -->
+            <article class="col-xs-12 col-sm-6 col-md-4 col-xl-3">
+
+                <picture>
+                    <img class="img-fluid" src="image/productos/EP057EL128KOULPE.webp" alt="Cámara web">
+                </picture>
+
+                <h3>Impresora Multifuncional Epson EcoTank L3250</h3>
+                <p>
+                    <span class="precioOriginal">S/ 1150.00</span> <span class="precioDescuento">-30%</span>
+                    <br><span class="precioFinal">S/ 769.00</span>
+                </p>
+                <button>Agregar al carrito</button>
+
+            </article>
+
+            <!-- Articulo 03 -->
+            <article class="col-xs-12 col-sm-6 col-md-4 col-xl-3">
+
+                <picture>
+                    <img class="img-fluid" src="image/productos/VS653EL1LQW0VLPE.webp" alt="Cámara web">
+                </picture>
+
+                <h3>Audífonos Gamer Kuiper Vsg Multiplataforma Ps4 Xbox</h3>
+                <p>
+                    <span class="precioOriginal">S/ 190.00</span> <span class="precioDescuento">-47%</span>
+                    <br><span class="precioFinal">S/ 99.00</span>
+                </p>
+                <button>Agregar al carrito</button>
+
+            </article>
+
+            <!-- Articulo 04 -->
+            <article class="col-xs-12 col-sm-6 col-md-4 col-xl-3">
+
+                <picture>
+                    <img class="img-fluid" src="image/productos/TP614EL1AHUOLLPE.webp" alt="Cámara web">
+                </picture>
+
+                <h3>Router Inalámbrico N a 450 Mbps TL-WR940N - Tplink</h3>
+                <p>
+                    <span class="precioOriginal">S/ 129.00</span> <span class="precioDescuento">-15%</span>
+                    <br><span class="precioFinal">S/ 109.00</span>
+                </p>
+                <button>Agregar al carrito</button>
+
+            </article>
+
+            <!-- Articulo 05 -->
+            <article class="col-xs-12 col-sm-6 col-md-4 col-xl-3">
+
+                <picture>
+                    <img class="img-fluid" src="image/productos/LE060EL0HR4G9LPE.webp" alt="Cámara web">
+                </picture>
+
+                <h3>Laptop Lenovo IdeaPad 5 15.6\" Full HD AMD Ryzen 7 8GB 512GB SSD</h3>
+                <p>
+                    <span class="precioOriginal">S/ 3899.00</span> <span class="precioDescuento">-41%</span>
+                    <br><span class="precioFinal">S/ 2300.41</span>
+                </p>
+                <button>Agregar al carrito</button>
+
+            </article>
+
+            <!-- Articulo 06 -->
+            <article class="col-xs-12 col-sm-6 col-md-4 col-xl-3">
+
+                <picture>
+                    <img class="img-fluid" src="image/productos/OE991EL0U4PXVLPE.webp" alt="Cámara web">
+                </picture>
+
+                <h3>TECLADO GAMER RGB Combo 2 en 1 , Teclado + mouse. TF230 - TWOLF</h3>
+                <p>
+                    <span class="precioOriginal">S/ 120.00</span> <span class="precioDescuento">-66%</span>
+                    <br><span class="precioFinal">S/ 40.80</span>
+                </p>
+                <button>Agregar al carrito</button>
+
+            </article>
+
+        </section>
+
+    </main>
+
+    <!-- Pie de página -->
+
+    <footer class="container-fluid bg-dark text-white p-5">
+        <div class="container p-0">
+            <p class="float-end">
+                <a href="#">Volver arriba</a>
+            </p>
+            <p>Creado por Arturo producciones - 2023</p>
+        </div>
+    </footer>
+
+    <!-- AQUÍ VIENE EL JAVASCRIPT PREPARATE... -->
+    <script>
+        function mostrarModalImpresora() {
+            let modal = document.getElementById("ImpresoraModal");
+            modal.setAttribute("style", "display:block")
+        }
+        function ocultarModalImpresora() {
+            let modal = document.getElementById("ImpresoraModal");
+            modal.setAttribute("style", "display:none")
+        }
+    </script>
+
+    <!-- JavaScript de Bootstrap -->
+    <script src="js/bootstrap.js"></script>
+
+</body>
+
+</html>
